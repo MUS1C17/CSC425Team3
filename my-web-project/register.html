@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    // Search bar filter logic (works for all pages)
+    window.addEventListener('DOMContentLoaded', function() {
+        const searchBar = document.querySelector('.search-bar');
+        if (searchBar) {
+            searchBar.addEventListener('input', function() {
+                const query = this.value.trim().toLowerCase();
+                document.querySelectorAll('.hover-box').forEach(box => {
+                    const header = box.querySelector('h1,h2,h3,h4,h5,h6');
+                    if (header && header.textContent.toLowerCase().includes(query)) {
+                        box.style.display = '';
+                    } else {
+                        box.style.display = 'none';
+                    }
+                });
+            });
+        }
+    });
+    </script>
+</head>
+<body class="register">
+    <header>
+        <nav class="navbar">
+            <button class="nav-btn" onclick="location.href='index.html'">Home</button>
+            <button class="nav-btn" onclick="location.href='about.html'">About</button>
+            <button class="nav-btn" onclick="location.href='contact.html'">Contact</button>
+            <button class="nav-btn active" onclick="location.href='register.html'">Register</button>
+            <button class="nav-btn" onclick="location.href='dynamic.html'">Dynamic</button>
+        </nav>
+        <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <div class="hover-box">
+            <h1>Do you want to join our amazing team?</h1>
+            <p>
+                Fill out the form to become a part of our group! Required fields are marked with *.<br>
+            </p>
+        </div>
+        <form class="register-form hover-box" id="registerForm" autocomplete="off">
+            <input type="text" name="firstName" placeholder="First Name *" required>
+            <input type="text" name="lastName" placeholder="Last Name *" required>
+            <input type="tel" name="phone" placeholder="Phone Number *" required>
+            <input type="text" name="github" placeholder="Github *" required>
+            <input type="text" name="discord" placeholder="Discord *" required>
+            <input type="email" name="email" placeholder="Email (optional)">
+            <button type="submit">Save</button>
+        </form>
+    </main>
+    <footer>
+            <p>&copy; CSC 425 Deliverable#1 2025</p>
+    </footer>
+    <script>
+    // Save registration to localStorage for dynamic page
+    document.getElementById('registerForm').onsubmit = function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const user = {
+            firstName: form.firstName.value,
+            lastName: form.lastName.value,
+            phone: form.phone.value,
+            github: form.github.value,
+            discord: form.discord.value,
+            email: form.email.value
+        };
+        let users = JSON.parse(localStorage.getItem('users') || '[]');
+        users.push(user);
+        localStorage.setItem('users', JSON.stringify(users));
+        alert('Registration saved! Go to the Dynamic page to see yourself on the list.');
+        form.reset();
+    };
+    </script>
+</body>
+</html>
