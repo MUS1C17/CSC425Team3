@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Landing page for a small multi-page site with a dynamic list demo." />
+  <title>Home • Simple Site</title>
+  <link rel="stylesheet" href="../src/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dynamic.html">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome 👋</h2>
+      <p class="lead">
+        This is a minimal, clean, and accessible multi-page site with a dynamic page demo.
+      </p>
+    </section>
+
+    <section aria-labelledby="quick-links" class="cards">
+      <h3 id="quick-links" class="visually-hidden">Quick links</h3>
+      <a class="card-btn" href="about.html" role="button" aria-label="Go to About page">
+        <span>About</span>
+      </a>
+      <a class="card-btn" href="contact.html" role="button" aria-label="Go to Contact page">
+        <span>Contact</span>
+      </a>
+      <a class="card-btn" href="register.html" role="button" aria-label="Go to Register page">
+        <span>Register</span>
+      </a>
+    </section>
+
+    <section class="info">
+      <p>
+        Want to see interactivity? Try the <a href="dynamic.html">Dynamic List Demo</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="src/js/script.js" defer>
+    // Inline one-liner just to keep the year current without loading script.js here.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
