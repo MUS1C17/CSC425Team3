@@ -1,0 +1,32 @@
+/* Basic reset and layout */
+* { box-sizing: border-box; }
+html,body { margin: 0; padding: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color: #222; background: #f7f7f8; }
+.container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+
+/* Header and nav */
+.site-header { background: #1f6feb; color: white; padding: 0.75rem 0; }
+.site-title { margin: 0; font-size: 1.25rem; }
+.site-nav { margin-top: 0.5rem; }
+.site-nav .button { display: inline-block; margin-right: 0.5rem; padding: 0.45rem 0.75rem; background: rgba(255,255,255,0.12); color: white; text-decoration: none; border-radius: 6px; }
+.site-nav .button:hover { background: rgba(255,255,255,0.2); }
+
+/* Main content */
+.hero { background: white; padding: 1.25rem; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+main section { margin-top: 1rem; }
+
+/* Dynamic widget styles */
+#dynamic { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 0.5rem; }
+#userInput { flex: 1 1 240px; padding: 0.5rem; border: 1px solid #d0d7de; border-radius: 6px; }
+#addItem { padding: 0.5rem 0.75rem; border: none; background: #0f62fe; color: white; border-radius: 6px; cursor: pointer; }
+#addItem:hover { background: #0b53d6; }
+#myList { margin-top: 0.75rem; padding-left: 1.25rem; }
+#myList li { padding: 0.35rem 0; border-bottom: 1px solid #eee; }
+
+/* Footer */
+.site-footer { margin-top: 2rem; padding: 1rem 0; text-align: center; color: #666; }
+
+/* Responsive tweaks */
+@media (max-width: 520px) {
+  .site-nav .button { display: block; margin: 0.25rem 0; }
+  #dynamic { flex-direction: column; align-items: stretch; }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home — Simple Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Simple Site</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="button" href="about.html">About</a>
+        <a class="button" href="contact.html">Contact</a>
+        <a class="button" href="register.html">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome</h2>
+      <p>This is a small static site with a dynamic page demo. Use the navigation above to open the other pages.</p>
+      <p>You can also try the interactive page: <a href="dynamic.html">Dynamic Page</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Simple Site</p>
+    </div>
+  </footer>
+
+  <script>
+    // small script to update copyright year — local inline and lightweight
+    document.addEventListener('DOMContentLoaded', function () {
+      var y = new Date().getFullYear();
+      var el = document.getElementById('year');
+      if (el) el.textContent = y;
+    });
+  </script>
+</body>
+</html>
