@@ -26,7 +26,32 @@
   <main class="container">
     <section class="page-intro">
       <h2>Welcome to the Contact Page</h2>
-      <p>For demo purposes, this page shows consistent layout and styling.</p>
+      <p>If you’d like to reach out, please use the form below or check out our contact details.</p>
+    </section>
+
+    <section class="panel">
+      <h3>Send us a message</h3>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h3>Other ways to reach us</h3>
+      <ul>
+        <li><strong>Email:</strong> contact@example.com</li>
+        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+        <li><strong>Address:</strong> 123 Main Street, Murray, KY</li>
+      </ul>
     </section>
   </main>
 

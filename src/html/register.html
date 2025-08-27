@@ -23,10 +23,77 @@
     </div>
   </header>
 
-  <main class="container">
+    <main class="container">
     <section class="page-intro">
-      <h2>Welcome to the Register Page</h2>
-      <p>This is a placeholder page to keep the layout consistent.</p>
+      <h2>Create an Account</h2>
+      <p>Join our updates list and get access to future demos. This form is static for now (demo only).</p>
+    </section>
+
+    <section class="panel">
+      <h3>Register</h3>
+      <form class="form-grid" onsubmit="event.preventDefault(); alert('Submitted (demo only)');">
+        <div class="form-row">
+          <label for="firstName">First name</label>
+          <input id="firstName" name="firstName" type="text" placeholder="Jane" autocomplete="given-name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="lastName">Last name</label>
+          <input id="lastName" name="lastName" type="text" placeholder="Doe" autocomplete="family-name" required />
+        </div>
+
+        <div class="form-row form-row--full">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="jane.doe@example.com" autocomplete="email" required />
+          <p class="hint">We’ll only use this to send you updates.</p>
+        </div>
+
+        <div class="form-row form-row--with-hint">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="At least 8 characters"
+            minlength="8"
+            autocomplete="new-password"
+            required
+          />
+          <p class="hint">Use at least 8 characters. Add numbers or symbols for strength.</p>
+        </div>
+
+        <div class="form-row">
+          <label for="confirm">Confirm password</label>
+          <input
+            id="confirm"
+            name="confirm"
+            type="password"
+            placeholder="Re-enter password"
+            minlength="8"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+
+        <div class="form-row form-row--full checkbox-row">
+          <input id="terms" name="terms" type="checkbox" required />
+          <label for="terms">I agree to the <a href="#" aria-label="Terms (placeholder)">Terms</a> and <a href="#" aria-label="Privacy (placeholder)">Privacy Policy</a>.</label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit">Create account</button>
+          <a class="btn btn-ghost" href="index.html" role="button">Cancel</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h3>Why register?</h3>
+      <ul class="benefits">
+        <li>Get notified about new examples and patterns.</li>
+        <li>Early access to interactive demos.</li>
+        <li>No spam. Unsubscribe anytime.</li>
+      </ul>
     </section>
   </main>
 
