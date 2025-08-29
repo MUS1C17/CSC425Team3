@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic List</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .comment-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5em;
+            margin-bottom: 1em;
+        }
+        #joinBtn {
+            display: block;
+            margin: 2em auto 1em auto;
+            font-size: 1.2em;
+            padding: 0.7em 2em;
+        }
+    </style>
+</head>
+<body class="dynamic">
+    <header>
+        <nav class="navbar">
+            <button class="nav-btn" onclick="location.href='index.html'">Home</button>
+            <button class="nav-btn" onclick="location.href='about.html'">About</button>
+            <button class="nav-btn" onclick="location.href='contact.html'">Contact</button>
+            <button class="nav-btn" onclick="location.href='register.html'">Register</button>
+            <button class="nav-btn active" onclick="location.href='dynamic.html'">Dynamic</button>
+        </nav>
+        <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <h1>Real Time List Updates</h1>
+        <div id="dynamic">
+            <h2 style="margin-top:2em;">Members List:</h2>
+            <div id="membersTableContainer"></div>
+            <button id="joinBtn" onclick="location.href='register.html'">Join</button>
+            <hr style="margin:2em 0;">
+            <h3>Comments</h3>
+            <div class="comment-row">
+                <input type="text" id="userInput" placeholder="Enter a comment" />
+                <button id="addItem">Add Comment</button>
+            </div>
+            <div id="commentsSection"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; CSC 425 Deliverable#1 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliverable 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-flex {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 2em;
+            margin-top: 2em;
+        }
+        .about-info {
+            flex: 2;
+            text-align: left;
+        }
+        .about-memes {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            align-items: center;
+        }
+        .about-info p {
+            font-size: 1.3em;
+            max-width: 700px;
+            margin-top: 1.5em;
+        }
+        @media (max-width: 900px) {
+            .about-flex { flex-direction: column; align-items: center; }
+            .about-info, .about-memes { width: 100%; text-align: center; }
+        }
+    </style>
+</head>
+<body class="about">
+    <header>
+        <nav class="navbar">
+            <button class="nav-btn" onclick="location.href='index.html'">Home</button>
+            <button class="nav-btn active" onclick="location.href='about.html'">About</button>
+            <button class="nav-btn" onclick="location.href='contact.html'">Contact</button>
+            <button class="nav-btn" onclick="location.href='register.html'">Register</button>
+            <button class="nav-btn" onclick="location.href='dynamic.html'">Dynamic</button>
+        </nav>
+        <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <div class="about-flex">
+            <div class="about-info hover-box">
+                <h1>Deliverable 1</h1>
+                <p>
+                    This website is a group project for CSC 425. It demonstrates a static homepage, informational pages, a contact directory, a registration form, and a dynamic page that updates a list in real time. The project showcases semantic HTML, CSS styling, and interactive JavaScript.
+                </p>
+            </div>
+            <div class="about-memes hover-box">
+                <img src="https://i.imgflip.com/4/4t0m5.jpg" alt="Meme 2" style="max-width:320px; width:100%;">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; CSC 425 Deliverable1 2025</p>
+    </footer>
+</body>
+</html>

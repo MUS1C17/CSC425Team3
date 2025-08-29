@@ -1,0 +1,228 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1em 0 0.5em 0;
+    background: transparent;
+}
+
+.nav-btn {
+    border: none;
+    padding: 0.7em 1.5em;
+    margin: 0 0.2em;
+    font-size: 1em;
+    border-radius: 5px;
+    background: #e0e0e0;
+    color: #222;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.nav-btn.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Search bar */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+.search-bar {
+    width: 60%;
+    max-width: 500px;
+    padding: 0.7em 1em;
+    border: 1px solid #bbb;
+    border-radius: 25px;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Page-specific blue shades */
+body.home header, body.home footer {
+    background: #1976d2;
+}
+body.home .nav-btn.active {
+    background: #115293;
+}
+
+body.about header, body.about footer {
+    background: #1565c0;
+}
+body.about .nav-btn.active {
+    background: #003c8f;
+}
+
+body.contact header, body.contact footer {
+    background: #0288d1;
+}
+body.contact .nav-btn.active {
+    background: #01579b;
+}
+
+body.register header, body.register footer {
+    background: #039be5;
+}
+body.register .nav-btn.active {
+    background: #0277bd;
+}
+
+body.dynamic header, body.dynamic footer {
+    background: #00bcd4;
+}
+body.dynamic .nav-btn.active {
+    background: #008ba3;
+}
+
+/* Inputs, buttons, and lists */
+input[type="text"], input[type="tel"], input[type="email"] {
+    padding: 0.5em;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1em;
+    margin: 0.5em 0;
+    width: 90%;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#addItem, #joinBtn, .register-form button {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 0.5em;
+}
+
+#addItem:hover, #joinBtn:hover, .register-form button:hover {
+    background: #115293;
+}
+/* Make Save button text bigger */
+.register-form button {
+    font-size: 1.3em;
+    font-weight: bold; 
+}
+ul#myList, .contact-list {
+    list-style: disc inside;
+    margin-top: 1em;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+ul#myList li, .contact-list li {
+    background: #f1f8ff;
+    margin: 0.3em 0;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    color: #222;
+}
+
+.register-form {
+    background: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 2em 1em;
+    width: 95%;
+    max-width: 400px;
+    margin: 2em auto;
+    position: relative;
+    z-index: 2;
+}
+
+.register-form input, .register-form button {
+    margin-bottom: 1em;
+}
+/* ...existing code... */
+
+/* Hovering box for sections */
+.hover-box {
+    background: #f8fbff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(25, 118, 210, 0.10), 0 1.5px 6px rgba(0,0,0,0.04);
+    margin: 2em auto;
+    padding: 2em 2em 1.5em 2em;
+    max-width: 600px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+.hover-box:hover {
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18), 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Center all headers and paragraphs in hover-box */
+.hover-box h1, .hover-box h2, .hover-box h3, .hover-box p {
+    text-align: center;
+    margin: 1em 0;
+}
+
+/* Register form in hover-box */
+.register-form input, .register-form button {
+    margin-bottom: 1em;
+    width: 90%;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Comment row for dynamic page */
+.comment-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+    margin-bottom: 1em;
+}
+#userInput {
+    height: 2.5em;
+    font-size: 1em;
+    width: 260px;
+    margin: 0;
+}
+#addItem {
+    height: 2.5em;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 1.2em;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: auto;
+    min-width: 110px;
+}
+#addItem:hover {
+    background: #115293;
+}
