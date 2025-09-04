@@ -1,0 +1,34 @@
+Student Name: Mark Sharovarov
+Branch Name: MarkSharovarov-Deliverable2
+Date Submitted: September 3, 2025
+
+Target User Group
+College and high school students who hesitate to ask questions during class due to fear of embarrassment, and instructors who need a structured way to capture, prioritize, and answer questions without disrupting lecture flow.
+
+Problem Description
+Many students avoid asking questions during lectures because they are worried about “looking dumb” or slowing down the class. At the same time, professors can’t always pause a lecture for lengthy explanations without sacrificing coverage of core material. As a result, students’ misunderstandings linger, overall participation decreases, and valuable clarifications are lost after class.
+
+Evidence of the Problem
+“Fears felt by students according to the teacher include fear of being ridiculed by his friends, fear of being considered stupid and fear of getting a poor response from the teacher so that students tend to choose silence even though he does not understand the material being studied.” — 
+Nuri, B. (2019, October). The reluctance of students to ask in mathematics learning: How does the teacher solve it?. In Journal of Physics: Conference Series (Vol. 1320, No. 1, p. 012069). IOP Publishing.
+
+“Another reason that students oftentimes remain silent is due to the fear of appearing uneducated in front of their classroom peers” — 
+Graesser, A. C., McMahen, C. L., & Johnson, B. K. (1994). Question asking and answering. In M. A. Gernsbacher (Ed.), Handbook of psycholinguistics (pp. 517–538). Academic Press.
+
+
+“How Might We” Statement
+How might we create a classroom Q&A platform that allows students to ask questions anonymously and in real time, while giving instructors the flexibility to answer live or provide detailed responses after class?
+
+User Persona
+Name: Alex Johnson
+Age: 19
+Occupation: First-year Computer Science student
+Location: Murray, KY
+Goals: Stay engaged in lectures, clarify confusing topics, succeed academically without fear of speaking up
+Frustrations: Embarrassed to ask questions in class, fast lecture pace leaves little time to clarify, misses deeper explanations when professor can’t cover them live
+Technology Comfort Level: High (daily use of phone and laptop; scans QR codes easily)
+Ethical Lens Applied
+Principle: Inclusion and accessibility in education
+Application: This issue ties to fairness and equity, ensuring all students can participate and get their questions answered. The solution respects students’ dignity by offering anonymity and avoids penalizing those with participation anxiety.
+Stakeholders Impacted: Students seeking clarity, instructors balancing class time, and academic institutions aiming to improve student engagement.
+
