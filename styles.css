@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header, footer {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+nav button {
+  margin: 0 0.5em;
+  padding: 0.5em 1.2em;
+  font-size: 1em;
+  border: none;
+  background: #0078d7;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+nav button:hover {
+  background: #005fa3;
+}
+
+#dynamic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userInput {
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+  width: 80%;
+  max-width: 300px;
+}
+
+#addItem {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1em;
+  transition: background 0.2s;
+}
+
+#addItem:hover {
+  background: #218838;
+}
+
+#myList {
+  list-style: disc inside;
+  padding: 0;
+  width: 80%;
+  max-width: 300px;
+}
+
+#myList li {
+  background: #f1f1f1;
+  margin: 0.3em 0;
+  padding: 0.5em;
+  border-radius: 4px;
+}
