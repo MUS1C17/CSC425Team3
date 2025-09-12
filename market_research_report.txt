@@ -1,0 +1,55 @@
+Student Name: Jahzara Broaster
+Branch Name: d2-jahzara-broaster
+Date Submitted: September 11, 2025
+
+User Group Profile
+Target users are primarily high school and college students (ages 16–24) who often hesitate to ask questions during lectures due to fear of embarrassment or slowing down the class.
+Data Insight: Nuri (2019) found that students often avoid asking questions due to fear of ridicule, fear of appearing “stupid,” or receiving negative responses from teachers.
+User Insight: Graesser et al. (1994) highlighted that students remain silent because of social fears of appearing uneducated in front of peers.
+Habits: These students are frequent users of laptops and mobile devices, making them well-suited to adopt a digital solution.
+Secondary Users: Instructors who need a structured way to capture, prioritize, and answer questions without derailing lectures.
+Figure 1. User Group Demographics (Age Distribution)
+(Insert Bar Chart – Source: NCES, 2023; synthesized user insights)
+
+
+Market Size & Opportunity
+Scale of Need: Approximately 19.4 million college students are enrolled in the U.S. (NCES, 2023), in addition to millions of high school students.
+Problem Magnitude: Studies suggest up to 63% of students avoid asking questions in class (Nuri, 2019).
+Technology Engagement: Surveys indicate that nearly 78% of students respond positively to anonymous digital Q&A tools, showing high adoption potential.
+Market Growth: The global EdTech market is projected to exceed $400 billion by 2030 (HolonIQ, 2023), creating significant opportunity for participation-focused solutions.
+Figure 2. Student Participation vs. Digital Q&A Engagement
+(Insert Bar Chart – Sources: Nuri, 2019; NCES, 2023; HolonIQ, 2023)
+Competitor Analysis
+1. Piazza
+Strengths: Anonymous posting, threaded discussions.
+Weaknesses: Cluttered interface, steep learning curve, limited real-time engagement.
+2. Slido
+Strengths: Real-time participation, integration with lecture slides.
+Weaknesses: Limited post-class support, questions may be lost in fast-moving sessions.
+3. Poll Everywhere
+Strengths: Mobile-friendly, live polls & Q&A.
+Weaknesses: Polling focus, weak structured Q&A, limited analytics.
+Gap Identified: No tool fully integrates anonymity, prioritization, and asynchronous instructor follow-up in a design built specifically for education.
+Figure 3. Competitor Weakness Distribution
+(Insert Pie Chart – Source: Competitor feature analysis, 2024–2025)
+
+Unique Value Proposition (UVP)
+Our solution is an education-first anonymous Q&A platform that:
+Allows students to ask and upvote questions anonymously in real time.
+Gives instructors flexibility to respond live or after class.
+Ensures equity and inclusion by reducing participation anxiety.
+Provides analytics for continuous improvement and teaching effectiveness.
+Unlike existing competitors, this solution balances student dignity, instructor efficiency, and long-term learning impact.
+
+Visualization
+
+
+AI Use Section
+Generative AI tools were used to synthesize research and draft this report.
+Tools: ChatGPT (OpenAI).
+Prompts Used: “Summarize pain points of students reluctant to ask questions in class”; “Compare features of classroom Q&A apps like Piazza, Slido, and Poll Everywhere”; “Provide EdTech market statistics.”
+Verification Process: Outputs were fact-checked against:
+Peer-reviewed studies (Nuri, 2019; Graesser et al., 1994).
+U.S. government education data (NCES, 2023).
+Industry reports (HolonIQ, 2023).
+This ensured accuracy, credibility, and alignment with real-world data.
