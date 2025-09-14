@@ -1,0 +1,186 @@
+IMAGES AND TABLES VISBLE IN PDF. I RECOMMEND VIEWING THE PDF FOR THE FULL IDEA. DOWNLOAD PDF OR INSTALL vscode-pdf EXTENSION BY tomoki1207 TO VIEW IN VISUAL STUDIO CODE.
+
+
+User group profile
+Demographics
+
+Many are undergraduate and late high school students (≈ ages 16-24) in large-enrollment or lecture-style courses. Studies of college science or large classes show hesitation in asking questions among these populations. Sibia, Bernuy, Williams, Liut, and Petersen (2023) indicate that most students are either inactive or participate invisibly because of threats to students’ identities and low academic confidence.
+From the dendograms above, Sibia, Bernuy, Williams, Liut, and Petersen (2023) deduce that the preference for visibility level may be related to confidence in answering questions.
+
+A noticeable portion of students with lower academic self-efficacy—those who doubt their understanding or ability—are more likely to avoid asking for help or questions. 
+At the individual level, a student's decision to avoid seeking help was related to the student's sense of academic efficacy and to gender. As expected, students who felt less efficacious regarding their school work were more likely to report avoidance of seeking help when they needed it. (Ryan, Gheen, & Midgley, 1998)
+
+Instructors tend to be those teaching mid to large classes, especially in settings where lecture time is tight and covering content is prioritized over interactive Q&A; also, those interested in improving student engagement or in courses with historically low participation. In fact, Nadile et al. (2021) state that the majority of students in their sample size of 417 undergrads at a research-intensive institution reported that they never ask or answer questions in large-enrollment college science courses during a semester.
+
+
+Pain Points
+Fear of negative evaluation/embarrassment. Students often feel anxious about how classmates will judge them, concerned about appearing “dumb.” This inhibits asking questions in class. Sibia, Bernuy, Williams, Liut, and Petersen (2023)
+
+Time constraints & pace of lectures. Lectures move quickly; instructors may not pause for every confusion. Some students miss clarifications because there isn’t space in the flow of class to address every question deeply. 
+
+Lack of safe/supportive classroom environment. This includes instructor behavior (e.g., how errors or questions are handled), peer norms (competition, comparison), and whether asking questions is tied to grades or visibility. In classrooms where mastery/ \intrinsic goals are emphasized (vs competition), help-seeking is more likely. (Ryan, Gheen, & Midgley, 1998)
+
+Daily Habits
+
+Use of digital forums/online help outside class. Many students lurk or participate more in online Q&A/discussion boards rather than speaking up in class, especially when anonymity or lower visibility is possible. Fear of being judged suppresses visibility. Sibia, Bernuy, Williams, Liut, and Petersen (2023).
+
+High reliance on lecture notes, recordings, and self-study materials. When questions are missed during class, students go back to slides/recordings/textbooks to try to fill in gaps, sometimes forming study groups after class. (Implied in research on student engagement and self-efficacy.) 
+
+Sensitivity to classroom goal structure and teacher-student interaction. Students tend to be more comfortable asking when the instructor uses inclusive strategies, signals openness to questions, or when classroom norms emphasize understanding over performance. Also, students’ beliefs about the classroom environment (e.g. relative ability vs mastery) affect their help-seeking behavior. (Ryan, Gheen, & Midgley, 1998)
+
+
+
+Market size & opportunity
+
+
+Key Data Points (U.S.)
+
+There are about 19.28 million undergraduate college students in the U.S. as of Fall 2024. 
+There are about 15 million high school students in the U.S. in recent years. 
+WICHE projects U.S. high school graduates will peak around 3.8-3.9 million in 2025, then decline. 
+
+
+Assumptions for Market Segmentation
+
+To estimate SAM/SOM, need to make some assumptions about what fraction of the population would actually be relevant users:
+
+Let’s assume that 30% of college and high school students feel enough discomfort/hesitation about asking questions that they would likely use our app. (Based on surveys showing a significant proportion self-censoring or intimidated in class; e.g., ~60-64% of students in large enrollment science classes report discomfort with answering questions.)
+Assume only some subset of schools/institutions will adopt the tool (say 20-30% initially) because of budget, awareness, and willingness.
+SOM will depend on marketing, penetration in early years: maybe 5-10% of the SAM in a realistic early scenario.
+
+Also assume pricing: for simplicity, assume a subscription model or per-seat pricing, say average revenue per user (student + instructor footprint) of US$10/year (this is just a placeholder to convert counts into $-TAM etc.).
+
+Estimated Market Size
+
+Putting it together, here are rough estimates for U.S. only:
+
+Let student + instructor eligible base = high school + undergrad = ~15 million + ~19 million = ~34 million students.
+
+If 30% are potential users → ~10.2 million.
+
+If schools/instructors adopt in 30% of possible contexts → serviceable ~3 million.
+
+If you capture 10% of that in early years → obtainable ~300,000 users.
+
+If each user yields ~$10/year → revenues:
+
+Full potential (TAM): 34 million × $10 = $340 million/year
+Serviceable (SAM): 3 million × $10 = $30 million/year
+Serviceable obtainable (SOM): 300,000 × $10 = $3 million/year
+
+These are U.S. market estimates. International expansion could multiply these substantially.
+
+
+Market Level
+Estimated USers
+Estimated Annual Revenue
+TAM
+~34 million students
+~ $340 million/year
+SAM
+~3 million students
+~ $30 million/year
+SOM
+~300,000 students
+~ $3 million/year
+
+Competitor Analysis
+
+
+App/Tool
+Features
+Strengths
+Weaknesses
+Reviews
+Slido
+• Live Q&A (students submit questions live or in advance) anonymously or with identity; upvoting of questions. 
+• Integration with PowerPoint, Google Slides, Zoom, Teams. 
+• Moderation tools (pre-approve questions, remove duplicates, label/categorize)
+• Analytics / export of question logs. 
+Sl
+• Very accessible: no login / no downloads often, join via link/code. Good UX. 
+• Anonymity helps shy students; upvoting helps prioritize what’s of most interest.
+• Fairly mature product, good integrations
+• Free plans often limit number of polls/questions or participants. More advanced features are behind paywalls. 
+• Less focused on follow-ups after class (detailed explanations, structuring unanswered questions).
+• The live Q&A tends to still interrupt flow somewhat if the instructor tries to answer in class; may need to toggle between content and Q&A.
+• Some instructors report difficulty managing moderation in large classes in real time.
+• Users often say “easy to use,” “intuitive” (especially modest sessions). 
+• In G2 comparisons vs Mentimeter, Slido scores a bit higher on reporting/dashboard, event security, and ease of admin. 
+• Some frustration in free-tier limits and cost scaling.
+Mentimeter
+• Live Q&A feature, including anonymous question submission. 
+• Polls, quizzes, word clouds, ranking, interactive presentation slides. 
+• Real-time visualization of responses; an audience can vote / respond as lecture proceeds.
+• Integrations with presentation tools.
+• Very user friendly; highly visual/engaging. Good for frequent checks of understanding.
+• Strong for hybrid / remote classes (where students are offsite).
+• Valued by instructors for making lectures more interactive.
+• Less emphasis on capturing and organizing questions for after class in a structured manner.
+• Some features locked in higher pricing.
+• The Q&A may become noisy; managing and filtering questions can be harder.
+• Live Q&A can still disturb lecture flow unless instructor carefully plans.
+• Customers praise “makes participation easier,” “fun visuals,” but some say “cost gets high” or “free limits frustrating.” 
+• Some think slides can be visually strong but less robust in managing lots of student questions.
+Piazza
+• Forum-style Q&A, where students can post questions, follow-ups, instructors respond. Public posts, with ability in many cases to allow anonymous posting.
+• Supports attachments, LaTeX, complex formatting and long essays / detailed answers.
+• Instructor moderation; can endorse answers; class statistics.
+• More asynchronous: used extensively outside class time.
+• Very good for deep/follow-up questions that need detailed answers. Not tied to time constraints of class.
+• Useful for classes with homework, group collaboration; peer answers are supported.
+• Builds persistent knowledge (student questions and answers remain, searchable).
+• Less good for real-time questions during a lecture; delay in responses sometimes. Misses “live submit / upvote / prioritize in lecture moment” functionality.
+• Interface less optimized for live presentation (e.g. projecting a queue in lecture).
+• Students still may be reluctant to ask publicly even with anonymity or “semi-anonymity.”
+• Less immediate feedback or awareness during lecture that many questions are piling up.
+• Students and instructors like the depth and archiving of Q&A. Some complaints about volume of posts, slow responses in large classes.
+• Mixed feedback on whether anonymous posting is really used / trusted.
+
+
+
+Unique Value Proposition (UVP)
+
+Our app empowers every student to participate by enabling anonymous, real-time Q&A during lectures, ensuring no one’s voice is lost to fear or embarrassment. Instructors gain a seamless tool to capture, prioritize, and respond to questions—live or after class—without disrupting lecture flow. The result: more engaged classrooms, clearer understanding, and equitable participation.
+
+Differentiation from Competitors:
+
+Student-first design: Prioritizes anonymity and inclusivity, directly addressing participation anxiety often overlooked by existing classroom tools.
+Instructor flexibility: Built-in options to answer during or after class, unlike competitors that focus mainly on live polling or discussion forums.
+Lightweight & accessible: Quick QR code access with no heavy integrations required, making it easy for both students and instructors to adopt instantly.
+An extension included to maximize convenience when presenting the screen
+
+
+
+AI Use Section
+Which GenAI tools were used
+
+
+ChatGPT(GPT-5)
+
+
+What prompts were used
+
+User Group Profile: "You are a market researcher. Analyze the demographics, pain points, and daily habits of potential users for a new app described below(deliverable 2 description). Present the findings in 3 concise bullet points per category (demographics, pain points, habits)."
+Market Size & Opportunity: "Act as a business analyst. Estimate the total addressable market (TAM), serviceable available market (SAM), and serviceable obtainable market (SOM) for the app described below(deliverable 2 description). Use recent statistics where possible. Present the numbers in a short paragraph followed by a 3-row table (TAM, SAM, SOM)"
+Competitor Analysis: "You are a competitive intelligence expert. Compare 2–3 apps similar to the app described below(deliverable 2 description). Create a table with columns for Features, Strengths, Weaknesses, and Customer Reviews. Highlight any gaps that your app could fill."
+Unique Value Proposition: "Pretend you are a startup pitch coach. Write a clear and persuasive unique value proposition (UVP) for the app described below(deliverable 2 description) in 2–3 sentences. Then, list 3 bullet points showing how it differentiates from competitors."
+Data Visualization: "You are a data storyteller. Using the information from earlier slides (market size, competitor ratings, or user habits), recommend one chart or graph that best illustrates the opportunity. Provide the chart description in words and outline the key data points that should appear in the visualization."
+
+
+How you fact-checked or verified output
+
+Citation verification: Reference details (authors, years, journal, DOI/URL) were cross-checked against the original published sources (Ryan et al., 1998; Nadile et al., 2021; Sibia et al., 2023).
+Market data verification: Student population figures were confirmed against U.S. Department of Education (IPEDS) and WICHE projections for high school graduates.
+Competitor analysis verification: Feature lists, strengths, and weaknesses were compared against product documentation, user reviews, and company websites.
+Content accuracy: AI-generated text was edited for factual correctness, ensuring claims about help-seeking, self-efficacy, and classroom participation were supported by cited literature.
+
+
+
+References
+
+Sibia, N., Bernuy, A. Z., Williams, J. J., Liut, M., & Petersen, A. (2023). Student Usage of Q&A	Forums: Signs of Discomfort? ArXiv. https://doi.org/10.1145/3587102.3588842
+
+Ryan, Allison & Gheen, Margaret & Midgley, Carol. (1998). Why Do Some Students Avoid Asking for Help? An Examination of the Interplay Among Students' Academic Efficacy, Teachers' Social–Emotional Role, and the Classroom Goal Structure. Journal of Educational Psychology. 90. 528-535. 10.1037/0022-0663.90.3.528.
+
+Nadile EM, Alfonso E, Barreiros BM, Bevan-Thomas WD, Brownell SE, Chin MR, Ferreira I, Ford SA, Gin LE, Gomez-Rosado JO, Gooding G, Heiden A, Hutt AE, King ML, Perez SG, Rivera Camacho YI, Salcedo F, Sellas CF, Sinda KA, Stahlhut KN, Stephens MD, Wiesenthal NJ, Williams KD, Zheng Y, Cooper KM. Call on me! Undergraduates' perceptions of voluntarily asking and answering questions in front of large-enrollment science classes. PLoS One. 2021 Jan 12;16(1):e0243731. doi: 10.1371/journal.pone.0243731. PMID: 33434226; PMCID: PMC7802933. 
