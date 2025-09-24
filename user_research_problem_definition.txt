@@ -1,0 +1,52 @@
+CSC425 Deliverable 2: User Research & Problem Definition
+
+Student Name: Jahzara Broaster
+Branch Name: d2-jahzara-broaster
+Date Submitted: September 3, 2025
+
+
+Target User Group
+Single mothers whose children are attending college.
+These moms manage household finances while also tracking tuition, fees, scholarships, 
+student loans, and other college-related expenses.
+
+Problem Description
+Many single mothers struggle to manage both family and college-related finances simultaneously.
+They must track multiple payment deadlines, scholarship opportunities, student loan schedules,
+and household bills, which can easily lead to missed payments, overdrafts, or lost opportunities. 
+For example, even when their child reminds them about a payment, they often have to scramble to 
+send it on time. It would be helpful if children could enter all payments and due dates into an 
+app that links to the parent’s side and sends automatic reminders—especially since older parents 
+may not be very comfortable with technology. This financial stress can result in late fees, higher 
+debt, and increased anxiety, affecting both the mother’s and student’s well-being.
+
+Evidence of the Problem
+- According to the National Center for Education Statistics (2023), over 40% of single-parent 
+households with college students report difficulty managing tuition and household expenses simultaneously.
+- “I constantly worry about missing a tuition payment or forgetting a scholarship deadline while 
+keeping up with bills at home—it’s exhausting.” — anonymous interview with a single mom
+- A 2022 survey from the Institute for College Access & Success shows that 35% of single-parent 
+families report overdraft or late fees due to managing multiple student-related and household expenses.
+
+“How Might We” Statement
+How might we help single mothers efficiently manage college and household finances by tracking tuition,
+fees, bills, and scholarship deadlines in one app with reminders and actionable tips?
+
+User Persona
+Name: Angela Johnson
+Age: 38
+Occupation: Part-time nurse
+
+Location: Louisville, KY
+Goals: Keep her household finances balanced while ensuring her child completes college on time
+Frustrations: Juggling multiple deadlines for tuition, bills, and scholarships; risk of overdraft;
+constant stress about finances
+Technology Comfort Level: Moderate (uses smartphone banking apps, but not advanced finance software)
+
+Ethical Lens Applied
+Principle: Equity of access to education and financial fairness
+● Application: Single mothers face systemic disadvantages in managing family and student 
+finances simultaneously, which can affect their child’s educational opportunities.
+● Stakeholders Impacted: Single-parent families, college students, financial aid offices
+● Professional Standard: Aligns with ACM Code of Ethics 1.4: “Be fair and take action not
+ to discriminate.” Ensuring access to financial tools supports fairness and reduces inequity in education.
