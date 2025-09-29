@@ -1,0 +1,273 @@
+{
+  "info": {
+    "name": "Questions and Answers API",
+    "description": "Collection for testing the Questions and Answers API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Questions",
+      "item": [
+        {
+          "name": "Create Question",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"John Doe\",\n  \"text\": \"How do I implement authentication in Node.js?\",\n  \"isAnonymous\": false,\n  \"upvotes\": 0,\n  \"answered\": false,\n  \"mediaUrls\": [\"https://example.com/screenshot.png\"]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Anonymous Question",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"Anonymous User\",\n  \"text\": \"What is the best way to handle errors in Express?\",\n  \"isAnonymous\": true,\n  \"upvotes\": 0,\n  \"answered\": false,\n  \"mediaUrls\": []\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Question with Answers",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"Jane Smith\",\n  \"text\": \"Can someone explain async/await?\",\n  \"isAnonymous\": false,\n  \"upvotes\": 5,\n  \"answered\": true,\n  \"mediaUrls\": [],\n  \"answers\": [\n    {\n      \"author\": \"Dr. Professor\",\n      \"text\": \"Async/await is syntactic sugar for promises that makes asynchronous code look synchronous.\",\n      \"isInstructor\": true\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get All Questions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/questions",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Question by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/questions/68d9f8fc9e48e20d1a574604",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "questions", "68d9f8fc9e48e20d1a574604"]
+            }
+          }
+        },
+        {
+          "name": "Update Question",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"John Doe Updated\",\n  \"text\": \"How do I implement JWT authentication in Node.js? (Updated)\",\n  \"isAnonymous\": false,\n  \"upvotes\": 15,\n  \"answered\": true,\n  \"mediaUrls\": [\"https://example.com/updated-screenshot.png\"]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions/68d9f8fc9e48e20d1a574604",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "questions", "68d9f8fc9e48e20d1a574604"]
+            }
+          }
+        },
+        {
+          "name": "Update Question - Add Answer",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"John Doe\",\n  \"text\": \"How do I implement authentication in Node.js?\",\n  \"isAnonymous\": false,\n  \"upvotes\": 10,\n  \"answered\": true,\n  \"mediaUrls\": [\"https://example.com/screenshot.png\"],\n  \"answers\": [\n    {\n      \"author\": \"Professor Smith\",\n      \"text\": \"You can use Passport.js for authentication. It's a popular middleware for Node.js.\",\n      \"isInstructor\": true\n    },\n    {\n      \"author\": \"Student Helper\",\n      \"text\": \"I recommend checking out JWT tokens for stateless authentication.\",\n      \"isInstructor\": false\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions/68d9f8fc9e48e20d1a574604",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "questions", "68d9f8fc9e48e20d1a574604"]
+            }
+          }
+        },
+        {
+          "name": "Update Question - Increment Upvotes",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"upvotes\": 25\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions/68d9f8fc9e48e20d1a574604",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "questions", "68d9f8fc9e48e20d1a574604"]
+            }
+          }
+        },
+        {
+          "name": "Delete Question",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/questions/68d9f8fc9e48e20d1a574604",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "questions", "68d9f8fc9e48e20d1a574604"]
+            }
+          }
+        },
+
+        {
+          "name": "Update Question - Invalid ID",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Updated text\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/questions/invalid-id-999",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions",
+                "invalid-id-999"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Question - Invalid ID",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/questions/invalid-id-999",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "questions",
+                "invalid-id-999"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            ""
+          ]
+        }
+      }
+    }
+  ]
+}
