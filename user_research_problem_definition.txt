@@ -1,0 +1,43 @@
+CSC425 Deliverable 2: User Research & Problem Definition
+
+Student Name: Edmund Longsworth
+Branch Name: d2-Edmund-Longsworth
+Date Submitted: September 3, 2025
+
+Target User Group
+Students with limited English proficiency (EAL learners)
+Primarily international students with English as an additional language (EAL) as well as,
+Faculty/instructors who want more inclusive classrooms, and University support staff (language centers, student success teams)
+
+Problem Description
+International students with limited English proficiency face challenges comprehending lectures, participating in discussions, and understanding discipline-specific vocabulary. These barriers reduce academic engagement, increase stress, and negatively affect performance, potentially limiting retention and overall academic success
+
+From Wu (2015), a qualitative study of international students adjusting to college in the U.S.:
+“All participants… claimed that their professors were nice, professional, and approachable. However, they noted difficulties in communicating with their professors due to language barriers, cultural differences, and different expectations from professors.”
+https://onlinelibrary.wiley.com/doi/full/10.1155/2015/202753?
+
+From Trenkic & Warmington (2018):
+In a matched study of Chinese vs. British students, “large and significant group differences were found at entry and eight months later. … Language and literacy indicators explained 51% of variance in the Chinese group's grades… language proficiency appears predictive of academic outcomes only before a certain threshold is reached, and this threshold does not correspond to the minimum language entry requirements.”
+https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/language-and-literacy-skills-of-home-and-international-university-students-how-different-are-they-and-does-it-matter/D20CF9E9823BA7C50364D257B4F30BDB
+
+From an interpretive phenomenological analysis (Glory Gatwiri, 2015):
+Language difficulties surfaced as a central theme affecting psychological wellbeing, linked to “Sense of Loss, Cultural Stress, Language Barriers, Social Support, Emotions, and Physical State.”
+http://www.inquiriesjournal.com/articles/1042/the-influence-of-language-difficulties-on-the-wellbeing-of-international-students-an-interpretive-phenomenological-analysis?
+
+“How Might We” Statement
+How might we help international students with limited English proficiency better understand lectures, academic materials, and classroom discussions so they can participate more confidently and succeed academically?
+
+User Persona
+Name: Li Wei
+Age: 20
+Occupation: Undergraduate student at Murray State University
+Location: Murray, KY, USA
+Goals: Understand lectures and readings without feeling lost or overwhelmed, Participate confidently in class discussions and group projects, Improve academic English to succeed in coursework, Stay organized and reduce stress caused by language barriers 
+Frustrations: Struggles to understand spoken lecture content quickly enough to take notes, Vocabulary in textbooks and slides is confusing and discipline-specific, Hesitant to ask questions in class for fear of making mistakes, Feels isolated when classmates or instructors speak quickly or use idioms, Wastes time looking up terms individually, disrupting study flow 
+Technology Comfort Level: Moderate (Smartphones, laptops, web apps, basic productivity tools (Google Docs, Zoom, Canvas LMS))
+
+Ethical Lens Applied
+Principle: Equity of access to education
+● Application: This issue violates the principle of fairness by systematically disadvantaging international students with limited English proficiency, who struggle to understand lectures, readings, and classroom discussions, limiting their ability to participate fully in academic life.
+● Stakeholders Impacted: International EAL students, faculty teaching courses with diverse language abilities, university language support centers, and academic advisors
+● Professional Standard: Aligns with ACM Code of Ethics 1.4: “Be fair and take action not to discriminate.” Ensures AI and educational tools support equitable learning opportunities for all students
