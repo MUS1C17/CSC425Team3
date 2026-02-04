@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Landing page for a small multi-page site with a dynamic list demo." />
+  <title>Home • Simple Site</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dynamic.html">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero--home">
+      <div class="hero-content">
+        <p class="badge">New</p>
+        <h2>Build. Learn. Ship.</h2>
+        <p class="lead">
+          A clean, multi-page starter with a dynamic list demo. No frameworks. No fuss.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="dynamic.html" role="button" aria-label="Try the Dynamic List Demo">Try the Dynamic Demo</a>
+          <a class="btn btn-ghost" href="register.html" role="button" aria-label="Register">Get Started</a>
+        </div>
+      </div>
+      <ul class="stats">
+        <li class="stat"><span class="stat-number">5</span><span class="stat-label">Pages</span></li>
+        <li class="stat"><span class="stat-number">0</span><span class="stat-label">Deps</span></li>
+        <li class="stat"><span class="stat-number">1</span><span class="stat-label">CSS file</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="quick-links" class="cards">
+      <h3 id="quick-links" class="visually-hidden">Quick links</h3>
+      <a class="card-btn" href="about.html" role="button" aria-label="Go to About page">
+        <span>About</span>
+      </a>
+      <a class="card-btn" href="contact.html" role="button" aria-label="Go to Contact page">
+        <span>Contact</span>
+      </a>
+      <a class="card-btn" href="register.html" role="button" aria-label="Go to Register page">
+        <span>Register</span>
+      </a>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature">
+        <h3>Semantic & Accessible</h3>
+        <p>Landmarks, labels, and focus states out of the box so you can build the right way from day one.</p>
+      </article>
+      <article class="feature">
+        <h3>Scalable Structure</h3>
+        <p>Keep HTML pages in <code>CSC425Site/</code>, and CSS/JS in <code>src/</code> for a professional layout.</p>
+      </article>
+      <article class="feature">
+        <h3>Zero Dependencies</h3>
+        <p>All vanilla HTML/CSS/JS—easy to drop into any stack later without rewrites.</p>
+      </article>
+    </section>
+
+    <section class="panel cta">
+      <div class="cta-inner">
+        <h3>Stay in the loop</h3>
+        <p class="cta-text">Get notified when we add more examples and patterns.</p>
+      </div>
+      <form class="cta-form" onsubmit="event.preventDefault(); alert('Thanks! (demo only)');">
+        <label for="cta-email" class="visually-hidden">Email address</label>
+        <input id="cta-email" type="email" placeholder="you@example.com" required />
+        <button type="submit">Notify me</button>
+      </form>
+    </section>
+
+    <section class="info">
+      <p>
+        Want to see interactivity? Try the <a href="dynamic.html">Dynamic List Demo</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Team 3 - Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js" defer>
+    // Inline one-liner just to keep the year current without loading script.js here.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

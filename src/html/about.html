@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About page" />
+  <title>About • Simple Site</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dynamic.html">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   <main class="container">
+    <section class="page-intro">
+      <h2>About This Project</h2>
+      <p>
+        This starter is designed to be clean, accessible, and easy to extend.
+        It uses semantic HTML, a shared design system, and zero dependencies.
+      </p>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature">
+        <h3>Clarity</h3>
+        <p>Readable code, predictable structure, and consistent styling.</p>
+      </article>
+      <article class="feature">
+        <h3>Accessibility</h3>
+        <p>Landmarks, focus states, and sensible defaults from the start.</p>
+      </article>
+      <article class="feature">
+        <h3>Scalability</h3>
+        <p>Source files live in <code>src/</code> so you can grow into tooling later.</p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h3>Project Timeline</h3>
+      <dl class="timeline">
+        <div class="tl-item">
+          <dt>Day 1</dt>
+          <dd>Scaffolded pages and shared layout (header / footer / nav).</dd>
+        </div>
+        <div class="tl-item">
+          <dt>Day 2</dt>
+          <dd>Added dynamic list page with progressive enhancement.</dd>
+        </div>
+        <div class="tl-item">
+          <dt>Day 3</dt>
+          <dd>Polished styles, improved home, contact, and register UX.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="panel">
+      <h3>Meet the Team</h3>
+      <ul class="team">
+        <li class="team-card">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div>
+            <p class="team-name">Alex Developer</p>
+            <p class="team-role">Frontend Engineer</p>
+          </div>
+        </li>
+        <li class="team-card">
+          <div class="avatar" aria-hidden="true">D</div>
+          <div>
+            <p class="team-name">Dana Designer</p>
+            <p class="team-role">Product Designer</p>
+          </div>
+        </li>
+        <li class="team-card">
+          <div class="avatar" aria-hidden="true">P</div>
+          <div>
+            <p class="team-name">Amanda PM</p>
+            <p class="team-role">Project Manager</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h3>FAQ</h3>
+      <details class="faq">
+        <summary>Can I add frameworks later?</summary>
+        <p>Yes. Keep the structure as-is and introduce a bundler (Vite/Webpack) when ready.</p>
+      </details>
+      <details class="faq">
+        <summary>How do I deploy?</summary>
+        <p>Any static host works: GitHub Pages, Netlify, Vercel, or a simple web server.</p>
+      </details>
+      <details class="faq">
+        <summary>Does the dynamic page require a backend?</summary>
+        <p>No—it's a purely client-side demo using vanilla JavaScript.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js" defer>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

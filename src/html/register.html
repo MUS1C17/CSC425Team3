@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Register page" />
+  <title>Register • Simple Site</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html" class="active">Register</a></li>
+          <li><a href="dynamic.html">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <main class="container">
+    <section class="page-intro">
+      <h2>Create an Account</h2>
+      <p>Join our updates list and get access to future demos. This form is static for now (demo only).</p>
+    </section>
+
+    <section class="panel">
+      <h3>Register</h3>
+      <form class="form-grid" onsubmit="event.preventDefault(); alert('Submitted (demo only)');">
+        <div class="form-row">
+          <label for="firstName">First name</label>
+          <input id="firstName" name="firstName" type="text" placeholder="Jane" autocomplete="given-name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="lastName">Last name</label>
+          <input id="lastName" name="lastName" type="text" placeholder="Doe" autocomplete="family-name" required />
+        </div>
+
+        <div class="form-row form-row--full">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="jane.doe@example.com" autocomplete="email" required />
+          <p class="hint">We’ll only use this to send you updates.</p>
+        </div>
+
+        <div class="form-row form-row--with-hint">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="At least 8 characters"
+            minlength="8"
+            autocomplete="new-password"
+            required
+          />
+          <p class="hint">Use at least 8 characters. Add numbers or symbols for strength.</p>
+        </div>
+
+        <div class="form-row">
+          <label for="confirm">Confirm password</label>
+          <input
+            id="confirm"
+            name="confirm"
+            type="password"
+            placeholder="Re-enter password"
+            minlength="8"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+
+        <div class="form-row form-row--full checkbox-row">
+          <input id="terms" name="terms" type="checkbox" required />
+          <label for="terms">I agree to the <a href="#" aria-label="Terms (placeholder)">Terms</a> and <a href="#" aria-label="Privacy (placeholder)">Privacy Policy</a>.</label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit">Create account</button>
+          <a class="btn btn-ghost" href="index.html" role="button">Cancel</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h3>Why register?</h3>
+      <ul class="benefits">
+        <li>Get notified about new examples and patterns.</li>
+        <li>Early access to interactive demos.</li>
+        <li>No spam. Unsubscribe anytime.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js" defer>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

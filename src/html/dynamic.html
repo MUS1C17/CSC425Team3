@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dynamic list demo page" />
+  <title>Dynamic • Simple Site</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dynamic.html" class="active">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h2>Dynamic List Demo</h2>
+      <p>Add items to the list using the input and button below.</p>
+    </section>
+
+    <section class="panel">
+      <div id="dynamic">
+        <label class="visually-hidden" for="userInput">List item text</label>
+        <input type="text" id="userInput" placeholder="Enter text" />
+        <button id="addItem" type="button">Add Item</button>
+        <ul id="myList" aria-live="polite" aria-label="Your items"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bonus: load script.js ONLY here -->
+  <script src="../js/script.js" defer>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

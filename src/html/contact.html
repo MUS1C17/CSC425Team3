@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact page" />
+  <title>Contact • Simple Site</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Simple Site</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dynamic.html">Dynamic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h2>Welcome to the Contact Page</h2>
+      <p>If you’d like to reach out, please use the form below or check out our contact details.</p>
+    </section>
+
+    <section class="panel">
+      <h3>Send us a message</h3>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h3>Other ways to reach us</h3>
+      <ul>
+        <li><strong>Email:</strong> contact@example.com</li>
+        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+        <li><strong>Address:</strong> 123 Main Street, Murray, KY</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Simple Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js" defer>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
